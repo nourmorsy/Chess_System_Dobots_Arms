@@ -1,5 +1,5 @@
 #//////////////////////////import libraries////////////////////////////////////
-from camera2 import camera_cal
+from camera_callibration import camera_cal
 import cv2
 import DoBotArm2 as Dbt
 import DobotDllType as dType
@@ -9,7 +9,7 @@ from stockfish import Stockfish
 
 class chess_game:
     def __init__(self):
-        engine_path = r"C:\Users\AAST\Desktop\chess _project_dont_touch21\stockfish_15.1_win_x64_avx2\stockfish-windows-2022-x86-64-avx2.exe"
+        engine_path = r"" #path engin
         self.engine = Stockfish(engine_path)
         self.board = chess.Board()
         self.engine.set_fen_position(self.board.fen())
