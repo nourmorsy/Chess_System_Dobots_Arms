@@ -35,11 +35,6 @@ To start the project:
    python main.py
    ```
 ---
-## Output
-
-![](output.mp4)
-
----
 ## Acknowledgments
 
   Special thanks to the teaching assistant for support and guidance [Hossam](https://github.com/Hossamvs)
